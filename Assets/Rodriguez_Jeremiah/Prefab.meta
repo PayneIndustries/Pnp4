@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Rodriguez_Jeremiah/Prefab.meta
 guid: ae13bab5f93ac8d4bbc0202127de647c
 folderAsset: yes
 timeCreated: 1509459533
+=======
+guid: 35034765c5992544eabe2e1a3b9566e9
+folderAsset: yes
+timeCreated: 1509473367
+>>>>>>> bb50c8828e27005163888888a4116f4a9ff0d624:Assets/Magtibay_Zaryn.meta
 licenseType: Free
 DefaultImporter:
   userData: 
