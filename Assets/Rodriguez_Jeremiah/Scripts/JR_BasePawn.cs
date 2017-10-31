@@ -65,9 +65,4 @@ public class JR_BasePawn : MonoBehaviour
     {
             basePawn.GetComponent<Renderer>().material.color = TeamColor;
     }
-
-    public void OnMouseDown()
-    {
-        basePawn.GetComponent<Renderer>().material.color = SelectedColor;
-    }
 }
