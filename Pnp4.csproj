@@ -87,6 +87,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Rodriguez_Jeremiah\Scripts\HighlightScript.cs" />
     <Compile Include="Assets\Rodriguez_Jeremiah\Scripts\JR_BasePawn.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

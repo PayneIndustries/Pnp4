@@ -5,22 +5,16 @@ using UnityEngine;
 public class JR_BasePawn : MonoBehaviour
 {
 
-    public GameObject basePawn;
-    public bool isWhite;
-    public bool isKing;
-    private bool Selected;
+    public GameObject Controller;
     private Vector3 currentPosition;
     private Vector3 newPosition;
     private GameObject targetedSquare;
-    public bool IsYourTurn;
-    public Color TeamColor;
-    public Color SelectedColor;
 
     // Use this for initialization
     void Start()
     {
 
-        currentPosition = basePawn.transform.position;
+        currentPosition = Controller.transform.position;
         newPosition = currentPosition;
 
     }
@@ -53,16 +47,5 @@ public class JR_BasePawn : MonoBehaviour
     {
         Destroy(gameObject);
     }
-
-    private void OnMouseOver()
-    {
-        {
-            basePawn.GetComponent<Renderer>().material.color = Color.yellow;
-        }
-    }
-
-    private void OnMouseExit()
-    {
-            basePawn.GetComponent<Renderer>().material.color = TeamColor;
-    }
+    
 }
