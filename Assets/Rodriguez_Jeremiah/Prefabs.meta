@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: bdedc18703f575d49881962924969473
 folderAsset: yes
 timeCreated: 1509473367
+=======
+guid: 67ab40a1556d74447be6af2a78dea329
+folderAsset: yes
+timeCreated: 1509413115
+>>>>>>> parent of cfeec62... Merge branch 'master' of https://github.com/PayneIndustries/Pnp4
 licenseType: Free
 DefaultImporter:
   userData: 
